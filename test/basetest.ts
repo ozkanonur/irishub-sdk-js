@@ -32,11 +32,11 @@ export class BaseTest {
 
   static getClient(): Client {
     let config = {
-        node: 'http://192.168.150.33:26657',
+        node: 'http://34.80.202.172:26657',
         chainNetwork: iris.types.ChainNetwork.Iris,
-        chainId: 'iris',
+        chainId: 'nyancat-9',
         gas: '20000000',
-        fee: { denom: 'uiris', amount: '200' },
+        fee: { denom: 'unyan', amount: '40000' },
     };
     // let privateKey = '1E120611404C4B1B98FC899A8026A6A9823C35985DA3C5ED3FF57C170C822F60'
 

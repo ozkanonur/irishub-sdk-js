@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "node": "cd test/scripts/ && sh build.sh && sh start.sh",
-    "test": "yarn run node && jest -i --config jest.config.js && sh test/scripts/clean.sh",
+    "test": "jest -i --config jest.config.js",
     "check": "gts check",
     "clean": "gts clean",
     "build": "rm -rf dist/* && tsc --emitDeclarationOnly && babel --extensions '.ts' src -d dist/src && cp LICENSE dist/ && cp README.md dist/ && cp package.json dist/ && cp -rf src/types/proto-types dist/src/types/proto-types",

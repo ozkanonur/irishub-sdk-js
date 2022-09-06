@@ -4,7 +4,7 @@ module.exports = {
   ],
   verbose: true,
   testMatch: [
-    '**/*.test.[jt]s',
+    '**/dummy.test.ts',
   ],
   testEnvironment: 'node',
   transform: {
